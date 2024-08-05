@@ -1,0 +1,32 @@
+body  {
+    background-color: black;
+    color: #FFFF;
+}
+
+h1 {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px 20px 4px 10px;
+    /* order top right down left */
+    /* top aur bottom se 5 rahegi aur left aur right se 20 
+    */
+    border-top-style: dotted;
+    border-radius: 10%;
+
+    border: 5px solid red;
+    border-radius: 10 px;
+
+    a:link{
+        color: #FFFF;
+        text-decoration: none;
+    }
+    a:visited{
+        color:bisque;
+    }
+    a:hover{
+        text-decoration: underline;
+        background-color: black;
+    }
+    a:active;
+
+}

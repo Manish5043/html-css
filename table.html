@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+        table {
+            
+            border-collapse: collapse;
+            text-align: center;
+            
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: #568596;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%" id="customers">
+        <colgroup>
+            <col span="2" style="background-color: aquamarine;" />
+        </colgroup>
+        <tr>
+            <th>country</th>
+            <th>country code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>india</td>
+            <td>in</td>
+            <td>i @gmail.com</td>
+        </tr>
+        <tr>
+            <td>in</td>
+            <td>i</td>
+            <td>is @gmail.com</td>
+        </tr>
+        <tr>
+            <td>indi</td>
+            <td>ina</td>
+            <td>i565 @gmail.com</td>
+        </tr>
+    </table>
+    <table>
+        
+        <tr>
+            <th colspan="2">country</th>
+            <th rowspan="2">country</th>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
